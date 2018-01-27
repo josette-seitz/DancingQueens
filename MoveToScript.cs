@@ -32,13 +32,3 @@ public class MoveToScript : MonoBehaviour {
         }
     }
 }
-
-//This will also work w/ a curve path
-//private float moveSpeed = 0.12f;
-//private float currPath = 0;
-//if (currPath > 1.0)
-//{
-//    currPath = 0;
-//}
-//currPath += moveSpeed * Time.deltaTime;
-//iTween.PutOnPath(transform, pathPoints, currPath);
