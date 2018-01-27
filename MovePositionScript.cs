@@ -8,7 +8,7 @@ public class MovePositionScript : MonoBehaviour {
     private int currPath;
     Color[] randColor = new Color[6];
 
-    private void Start() {
+    void Start() {
         randColor[0] = Color.red;
         randColor[1] = Color.blue;
         randColor[2] = Color.green;
