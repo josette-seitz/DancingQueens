@@ -17,9 +17,9 @@ public class MoveToScript : MonoBehaviour {
         randColor[5] = Color.cyan;
     }
 	
-     void Update () {
-             iTween.MoveTo(gameObject, iTween.Hash("position", pathPoints[currPath].position, 
-                 "speed", moveSpeed, "easetype", "linear", "oncomplete", "PathOfQueen"));
+    void Update () {
+            iTween.MoveTo(gameObject, iTween.Hash("position", pathPoints[currPath].position, 
+                "speed", moveSpeed, "easetype", "linear", "oncomplete", "PathOfQueen"));
     }
 
     void PathOfQueen()
