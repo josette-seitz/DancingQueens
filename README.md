@@ -1,5 +1,4 @@
 # DancingQueens
-Exploring different ways to code GameObject paths in C#.
 
 1. MovePositionScript <br> 
 Add Rigidbody component to GameObject. Call Rigidbody.MovePosition to move object to the next position of the path.
